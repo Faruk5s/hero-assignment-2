@@ -291,6 +291,44 @@ border: none;
 .Choose-card{
     width: 1320px;
     margin: 0 auto;
+    height: 300px;
+
+}
+.card-model{
+    display: grid;
+    grid-template-columns: repeat(2,650px);
+    gap: 20px;
+
+}
+.card-model-1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.card-model-1 img{
+    height: 50px;
+    width: 50px;
+}
+.card-model-2{
+    display: grid;
+    grid-template-columns: 650px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 20px;
+
+
+    }
+
+.card-model-1-1{
+    border-radius: 16px;
+border: 1px solid rgba(56, 40, 21, 0.2);
+background: rgba(251, 181, 99, 0.05);
+text-align: center;
+
+}
+.card-model-1-1 img{
+    height: 50px;
+    width: 50px;
 }
 
  /* Why Choose Us section end */
