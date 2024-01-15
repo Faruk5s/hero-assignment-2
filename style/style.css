@@ -260,3 +260,37 @@ border: none;
      height: 100%;
  }
  /* Destination end here */
+
+ /* Why Choose Us section start */
+ .Choose{
+    width: 1320px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 30px;
+}
+.Choose-container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.Choose-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.Choose-description{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Choose-card{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ /* Why Choose Us section end */
