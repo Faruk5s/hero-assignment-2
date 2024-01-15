@@ -93,7 +93,7 @@ line-height: normal;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     backdrop-filter: brightness(0.5);
     height: 500px;
-    background-image:url(/Images/Group\ 13\ \(1\)\ \(1\).png) ,url(/Images/Group\ 13\ \(1\)\ \(1\).png)  ;
+    background-image:url(/Images/group.png) ,url(/Images/group.png)  ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode:multiply ;
@@ -262,25 +262,25 @@ border: none;
  /* Destination end here */
 
  /* Why Choose Us section start */
- .Choose{
+ .Choose {
     width: 1320px;
     margin:0 auto ;
     /* border: 2px solid red; */
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-.Choose-container{
+.Choose-container ,.Deals-container{
     width: 1320px;
     margin: 0 auto;
 }
-.Choose-title{
+.Choose-title ,.Deals-title {
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 
 }
-.Choose-description{
+.Choose-description ,.Deals-description{
     text-align: center;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -332,3 +332,76 @@ text-align: center;
 }
 
  /* Why Choose Us section end */
+
+ /* Deals & Discounts section start  */
+ .Deals{
+    width: 1320px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 50px;
+}
+
+.Deals-1{
+    width: 1320px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    backdrop-filter: brightness(0.5);
+    height: 500px;
+    background-image:url(/Images/Group\ 39.png) ,url(/Images/Group\ 39.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode:multiply ;
+    margin-top: 30px;
+}
+.Deals-1 img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    
+}
+.Deals-2{
+    width: 1320px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    backdrop-filter: brightness(0.5);
+    height: 500px;
+    background-image:url(/Images/Group\ 40.png) ,url(/Images/Group\ 40.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode:multiply ;
+    margin-top: 30px;
+}
+.Deals-2 img{
+    width: 1320;
+    height: 100%;
+    
+}
+.Deals-3{
+    width: 1320px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    backdrop-filter: brightness(0.5);
+    height: 500px;
+    background-image:url(/Images/Group\ 39.png) ,url(/Images/Group\ 39.png)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode:multiply ;
+    margin-top: 30px;
+}
+.Deals-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+ /* Deals & Discounts section end */
