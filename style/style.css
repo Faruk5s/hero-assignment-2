@@ -90,10 +90,12 @@ line-height: normal;
     /* border: 2px solid red; */
     display: flex;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
     backdrop-filter: brightness(0.5);
     height: 500px;
-    background-image:url(/Images/group.png) ,url(/Images/group.png)  ;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+
+   url("../Images/group.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode:multiply ;
@@ -351,7 +353,7 @@ text-align: center;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     backdrop-filter: brightness(0.5);
     height: 500px;
-    background-image:url(/Images/Group\ 39.png) ,url(/Images/Group\ 39.png)  ;
+    background-image:url(../Images/Group\ 39.png) ,url(../Images/Group\ 39.png)  ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode:multiply ;
@@ -373,7 +375,7 @@ text-align: center;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     backdrop-filter: brightness(0.5);
     height: 500px;
-    background-image:url(/Images/Group\ 40.png) ,url(/Images/Group\ 40.png)  ;
+    background-image:url(../Images/Group\ 40.png) ,url(../Images/Group\ 40.png)  ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode:multiply ;
@@ -393,7 +395,7 @@ text-align: center;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     backdrop-filter: brightness(0.5);
     height: 500px;
-    background-image:url(/Images/Group\ 39.png) ,url(/Images/Group\ 39.png)  ;
+    background-image:url(../Images/Group\ 39.png) ,url(../Images/Group\ 39.png)  ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode:multiply ;
@@ -403,5 +405,88 @@ text-align: center;
     width: 100%;
     height: 100%;
 }
+.Deals-box-00{
+    width: 579px;
+   height: 400px;
+   flex-shrink: 0;
+   border-radius: 16px;
+   border: 2px solid #FFF;
+   background: rgba(255, 255, 255, 0.80);
+   backdrop-filter: blur(2.5px);
+   margin-top: 3.5%;
+   margin-right: 25%;
+   margin-left: 5%;
+}
 
+
+.Deals-box{
+     width: 579px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 3.5%;
+    margin-left: 47%;
+}
+.Deals-box-model{
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Deals-box-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Deals-box-description{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.Deals-box-bio{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Deals-box-button{
+    width: 150px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+border: none;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Deals-box-content{
+    display: flex;
+    justify-content: space-around;
+}
+.Deals-box-content img{
+    height: 24px;
+    width: 24px;
+}
+.box-icon{
+    display: flex;
+    text-align: center;
+}
+.box-icon-img{
+    margin-top: 15px;
+}
  /* Deals & Discounts section end */
