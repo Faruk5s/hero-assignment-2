@@ -490,4 +490,158 @@ line-height: normal;
 .box-icon-img{
     margin-top: 15px;
 }
+.Packages{
+    width: 210px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 6px;
+margin-left: 40%;
+}
  /* Deals & Discounts section end */
+
+ /* A Simple Perfect Place To Get Lost section start */
+ .Simple{
+    width: 1320px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 500px;
+    margin-top: 50px;
+ }
+ .Simple-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 5px;
+ }
+ .Simple-container-title{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+ }
+ .Simple-container-p{
+    width: 532px;
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+ }
+ .Simple-li{
+    width: 518px;
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+ }
+ .Simple-button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 50px;
+ }
+
+ .Simple-img-container{
+    width: 660px;
+    margin:0 auto ;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 16px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url("../Images/Group\ 40089.png");
+    backdrop-filter: brightness(1);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-blend-mode:multiply ; */
+    margin-top: 30px;
+
+ }
+ .img-icon-container{
+    display:flex;
+    
+ }
+ .img-icon-container-img{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-top: 390px;
+margin-left: 50px;
+ }
+ .img-icon-container-img-p{
+    color: var(--Dark-07, #F3F3F3);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 395px;
+margin-left: 10px;
+
+ }
+ .img-icon-container-2{
+    display: flex;
+    gap: 10px;
+    
+ }
+ .img-icon-container-img-2{
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-top: 390px;
+margin-left: 400px;
+ }
+.img-icon-container-img-3{
+    color: #FF5400;
+    width: 24px;
+    height: 24px;
+    margin-top: 390px;
+}
+.img-icon-container-img-4{
+    color: #FF5400;
+    width: 24px;
+    height: 24px;
+    margin-top: 390px;
+}
+.img-icon-container-img-5{
+    color: #FF5400;
+width: 400px;
+height: 4px;
+flex-shrink: 0;
+
+}
+.img-icon-container-img-5{
+width: 562px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 8px;
+background: white;
+text-align: center;
+}
+
+
+  /* A Simple Perfect Place To Get Lost section end */
