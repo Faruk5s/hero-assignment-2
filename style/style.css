@@ -93,7 +93,7 @@ line-height: normal;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     backdrop-filter: brightness(0.5);
     height: 500px;
-    background-image:url(/Images/Group\ 13\ \(1\)\ \(1\).png) ,url(/Images/Group\ 13\ \(1\)\ \(1\).png)  ;
+    background-image:url(Images/Group\ 13\ \(1\)\ \(1\).png) ,url(Images/Group\ 13\ \(1\)\ \(1\).png)  ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode:multiply ;
@@ -191,7 +191,7 @@ border: none;
 .Destination{
     width: 1320px;
     margin:0 auto ;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     margin-top: 30px;
 }
@@ -216,7 +216,7 @@ border: none;
 .card{
     width: 1320px;
     margin: 0 auto;
-    display: flex;
+    
     margin-top:10px;
 }
 
@@ -226,8 +226,20 @@ border: none;
    height: 500px;
    grid-template-columns: repeat(2,655px);
    gap:20px;
-    
 }
+
 .card-1 img{
     width: 100%;
 }
+
+.card-2{
+    display: grid;
+    width: 660px;
+    height: 500px;
+    grid-template-columns: repeat(3,655px);
+    gap:20px;
+     
+ }
+ .card-2 img{
+     width: 100%;
+ }
