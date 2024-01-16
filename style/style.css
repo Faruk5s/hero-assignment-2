@@ -32,9 +32,7 @@
 }
 .nav-title{
 font-size: 36px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 }
 .travel-color{
     color: #FF5400;
@@ -55,27 +53,15 @@ line-height: normal;
     text-align: center;
     width: 50%;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
-/* .items-container a .home-color{
-    color: #FF5400;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 
-} */
 .home-color{
     color: #FF5400;
     text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     border: none;
     background-color: white;
 
@@ -269,7 +255,7 @@ border: none;
     margin:0 auto ;
     /* border: 2px solid red; */
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .Choose-container ,.Deals-container{
     width: 1320px;
