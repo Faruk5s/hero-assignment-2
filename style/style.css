@@ -355,16 +355,14 @@ display: flex;
 
  /* Deals & Discounts section start  */
  .Deals{
-    width: 1320px;
-    margin:0 auto ;
+    
     /* border: 2px solid red; */
-    display: flex;
+    flex-direction: column;
     margin-top: 100px;
 }
 
 .Deals-1{
-    width: 1320px;
-    margin:0 auto ;
+    
     /* border: 2px solid red; */
     display: flex;
     border-radius: 16px;
@@ -386,8 +384,7 @@ display: flex;
     
 }
 .Deals-2{
-    width: 1320px;
-    margin:0 auto ;
+    
     /* border: 2px solid red; */
     display: flex;
     border-radius: 16px;
@@ -401,12 +398,12 @@ display: flex;
     margin-top: 30px;
 }
 .Deals-2 img{
-    width: 1320;
+
     height: 100%;
     
 }
 .Deals-3{
-    width: 1320px;
+    
     margin:0 auto ;
     /* border: 2px solid red; */
     display: flex;
@@ -425,8 +422,8 @@ display: flex;
     height: 100%;
 }
 .Deals-box-00{
-    width: 579px;
-   height: 400px;
+    width: 50%;
+   height: 70%;
    flex-shrink: 0;
    border-radius: 16px;
    border: 2px solid #FFF;
@@ -439,15 +436,15 @@ display: flex;
 
 
 .Deals-box{
-     width: 579px;
-    height: 400px;
+    height: 70%;
+    width: 50%;
     flex-shrink: 0;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     margin-top: 3.5%;
-    margin-left: 47%;
+    margin-left: 35%;
 }
 .Deals-box-model{
     margin-left: 25px;
@@ -479,7 +476,7 @@ font-weight: 800;
 line-height: normal;
 }
 .Deals-box-button{
-    width: 150px;
+width: 150px;
 height: 52px;
 flex-shrink: 0;
 border-radius: 8px;
@@ -506,7 +503,7 @@ line-height: normal;
     text-align: center;
 }
 .box-icon-img{
-    margin-top: 15px;
+    
 }
 .Packages{
     width: 210px;
